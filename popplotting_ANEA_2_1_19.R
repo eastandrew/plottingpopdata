@@ -52,7 +52,7 @@ points(maxc~day, data=subset(fakedf2, treat=="b"), type="l", lwd=1, lty=2, col="
 points(minc~day, data=subset(fakedf2, treat=="b"), type="l", lwd=1, lty=2, col="pink")
 points(maxc~day, data=subset(fakedf2, treat=="c"), type="l", lwd=1, lty=2, col="green")
 points(minc~day, data=subset(fakedf2, treat=="c"), type="l", lwd=1, lty=2, col="green")
-####
+####Maybe could be done with less lines in ggplot2?####
 #################################################################################
 
 #################################################################################
